@@ -35,8 +35,6 @@ public class ProductServiceImpl implements ProductService {
         if (product != null) {
             return ResponceBuilder.getSuccessResponce(HttpStatus.CREATED, root + "Created Successfuly", null);
         }
-        String to[]={"kibria@gmail.com"};//jake mail pathabe
-        mailService.sendNonHtmlMail(to,"Test Mail","hello kibria");
         return ResponceBuilder.getFailureResponce(HttpStatus.INTERNAL_SERVER_ERROR, "Internal server error occurs");
     }
 

@@ -22,7 +22,7 @@ public class EmailConstrint {
     public String port;
     @Value("${spring.mail.host}")
     public String host;
-    @Value("${spring.mail.isAutht}")
+    @Value("${spring.mail.isAuth}")
     public String isAuth;//for check user authenticate or not
     @Value("${spring.mail.tls}")
     public String isTls;
@@ -30,10 +30,10 @@ public class EmailConstrint {
     private Properties getPropertiesInstance() {
         Properties properties = new Properties();
 
-        properties.put("mial.smtp.post",host);
-        properties.put("mial.smtp.port",port);
-        properties.put("mial.smtp.auth",isAuth);
-        properties.put("mial.smtp.starttls.enable",isTls);
+        properties.put("mail.smtp.port", port);
+        properties.put("mail.smtp.host", host);
+        properties.put("mail.smtp.auth", isAuth);
+        properties.put("mail.smtp.starttls.enable", isTls);
         return properties;
     }
 
