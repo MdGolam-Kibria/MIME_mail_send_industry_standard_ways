@@ -10,3 +10,7 @@ Spring boot complete how to send MIME mail industry standard ways from a company
     here the all mail config = @https://github.com/MdGolam-Kibria/MIME_mail_send_industry_standard_ways/tree/master/src/main/java/com/example/mailSender/mailService
     after that...
     - send the mail from this class @https://github.com/MdGolam-Kibria/MIME_mail_send_industry_standard_ways/blob/master/src/main/java/com/example/mailSender/mailService/MailController.java
+    
+    
+    
+    -implement how to senf email from html code.
