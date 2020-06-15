@@ -11,6 +11,15 @@ Spring boot complete how to send MIME mail industry standard ways from a company
     after that...
     - send the mail from this class @https://github.com/MdGolam-Kibria/MIME_mail_send_industry_standard_ways/blob/master/src/main/java/com/example/mailSender/mailService/MailController.java
     
+   ### For <b>JavaMailSender</b> add mail <b>Beans</b> in application.properties for future change below the properties <br/>
     
+    `#obossoi mail ei mail er security off kore dite hobe
+spring.mail.username=golamkibria.java@gmail.com
+spring.mail.password=abboammo@gmail.com.bd
+spring.mail.port=587
+spring.mail.tls=true
+spring.mail.isAuth=true
+spring.mail.protocol=smtp
+spring.mail.properties.mail.smtp.starttls.enable=true`
     
     -implement how to senf email from html code.
