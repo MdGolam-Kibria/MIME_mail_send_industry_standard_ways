@@ -22,4 +22,4 @@ spring.mail.isAuth=true
 spring.mail.protocol=smtp
 spring.mail.properties.mail.smtp.starttls.enable=true`
     
-    -implement how to senf email from html code.
+    -implement how to send email from html code using html code or html file.
