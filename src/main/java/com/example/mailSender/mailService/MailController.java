@@ -16,12 +16,12 @@ public class MailController {
     }
     @GetMapping("/send")
     public EmailStatus sendEMail(){
-        String to[]={"golamkibria041@gmail.com","rakibccj@gmail.com"};//jake mail pathabe
-       return mailService.sendNonHtmlMail(to,"spring boot mail test ","Brother, if you got my mail,please  let me know");
+        String to[]={"rifatbilalphilips@gmail.com"};//jake mail pathabe
+       return mailService.sendNonHtmlMail(to,"spring boot mail test ","Congrats, you successfully send mail from your own creating server");
     }
     @GetMapping("/sendHtmlMail")//for html direct
     public EmailStatus sendhtmlEMail(){
-        String to[]={"golamkibria041@gmail.com","delowarhossain21212@gmail.com"};//jake mail pathabe
+        String to[]={"rifatbilalphilips@gmail.com"};//jake mail pathabe
        return mailService.sendHtmlMail(to,"spring boot mail test ","<!DOCTYPE html>\n" +
                "<html lang=\"en\" xmlns:th=\"http://www.thymeleaf.org\">\n" +
                "<head>\n" +
